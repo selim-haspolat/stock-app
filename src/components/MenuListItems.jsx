@@ -53,8 +53,8 @@ const icons = [
 const iconStyle = {
   color: "white",
   "& .MuiSvgIcon-root": { color: "white" },
-  "&:hover": { color: "red" },
-  "&:hover .MuiSvgIcon-root": { color: "red" },
+  "&:hover": { color: "cyan" },
+  "&:hover .MuiSvgIcon-root": { color: "cyan" },
 };
 
 const MenuListItems = () => {

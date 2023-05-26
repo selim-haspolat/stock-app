@@ -51,7 +51,7 @@ const Firms = () => {
 
   return (
     <div>
-      <Typography variant="h4" color="error" mb={3}>
+      <Typography variant="h4" mb={3}>
         Firm
       </Typography>
 

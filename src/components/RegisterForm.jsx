@@ -36,7 +36,9 @@ const SignUpForm = ({ values, handleChange, errors, touched, handleBlur }) => {
             type="text"
             variant="outlined"
             value={values.username}
-            onChange={handleChange}
+            onChange={
+              handleChange
+            }
             onBlur={handleBlur}
             helperText={touched.username && errors.username}
             error={touched.username && Boolean(errors.username)}

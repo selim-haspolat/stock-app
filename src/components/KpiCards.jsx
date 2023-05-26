@@ -2,7 +2,7 @@ import { Avatar, Box, Grid, Paper, Typography } from "@mui/material"
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn"
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart"
 import PaymentsIcon from "@mui/icons-material/Payments"
-import { amber, deepPurple, pink } from "@mui/material/colors"
+import { amber, cyan, green } from "@mui/material/colors"
 import { useSelector } from "react-redux"
 
 const KpiCards = () => {
@@ -23,24 +23,24 @@ const KpiCards = () => {
       title: "sales",
       value: `$${totalSales}`,
       icon: <MonetizationOnIcon sx={{ fontSize: "2.3rem" }} />,
-      color: deepPurple[600],
-      bgColor: deepPurple[100],
+      color: green[600],
+      bgColor: green[100],
     },
     {
       id: 2,
       title: "profit",
       value: `$${totalProfit}`,
       icon: <ShoppingCartIcon sx={{ fontSize: "2.3rem" }} />,
-      color: pink[600],
-      bgColor: pink[100],
+      color: amber[600],
+      bgColor: amber[100],
     },
     {
       id: 3,
       title: "purchases",
       value: `$${totalPurchases}`,
       icon: <PaymentsIcon sx={{ fontSize: "2.3rem" }} />,
-      color: amber[600],
-      bgColor: amber[100],
+      color: cyan[600],
+      bgColor: cyan[100],
     },
   ]
 
